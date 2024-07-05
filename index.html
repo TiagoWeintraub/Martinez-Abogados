@@ -15,6 +15,9 @@
         
         <title>Martínez Abogados - Estudio Jurídico y Notarial en Mendoza, Argentina</title>
 
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/balanza.ico" />
         <!-- Bootstrap Icons-->
@@ -23,6 +26,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -47,9 +51,9 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <header class="masthead" data-aos="zoom-out">
+            <div class="container d-flex flex-column px-4 px-lg-5 h-100 justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" >
                     <div class="col-lg-8 align-self-end">
                         <h1 class="text-white font-weight-bold">Martinez Abogados</h1>
                         <hr class="divider" />
@@ -61,28 +65,47 @@
                 </div>
             </div>
         </header>
-        <!-- nuestra_historia-->
+      
         <section class="page-section bg-primary" id="nuestra_historia">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Nuestra Historia</h2>
-                        <hr class="divider divider-light" />
-                        <!-- <a class="btn btn-light btn-xl" href="#services">Get Started!</a> -->
-                    </div> 
+            <div class="altura-secciones">
+                <div class="container px-4 px-lg-5" data-aos="fade-up">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <h2 class="text-white mt-0">Nuestra Historia</h2>
+                            <hr class="divider divider-light" />
+                            <!-- <a class="btn btn-light btn-xl" href="#services">Get Started!</a> -->
+                        </div> 
+                    </div>
                 </div>
-            </div>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-6 col-md-6 col-sm-6 text-white-75 mb-4 text-start">Desde hace más de 40 años, nuestro Estudio Jurídico ha sido un referente en el campo del asesoramiento jurídico integral en la provincia. Durante este tiempo, hemos tenido el privilegio de asistir a una amplia gama de clientes, incluidos importantes actores como desarrolladores inmobiliarios, cadenas de supermercados, compañías mineras, entre otros.</div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 text-white-75 mb-4 text-start">Nuestra trayectoria se ha construido sobre principios inquebrantables de profesionalismo, transparencia y un sólido trabajo en equipo. Estos valores nos han permitido consolidar una relación de confianza y fidelidad con nuestros clientes.</div>
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4 "><p class="text-start font-size-1">Desde hace más de 40 años, nuestro Estudio Jurídico ha sido un referente en el campo del asesoramiento jurídico integral en la provincia. Durante este tiempo, hemos tenido el privilegio de asistir a una amplia gama de clientes, incluidos importantes actores como desarrolladores inmobiliarios, cadenas de supermercados, compañías mineras, entre otros.</p></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-4"><p class="text-start font-size-1">Nuestra trayectoria se ha construido sobre principios inquebrantables de profesionalismo, transparencia y un sólido trabajo en equipo. Estos valores nos han permitido consolidar una relación de confianza y fidelidad con nuestros clientes.</p></div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section class="evolucion">
+            <div class="container px-4 px-lg-5 h-100" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" >
+                        <div class="col-lg-10 col-md-10 col-sm-10 mb-4">
+                            <p class="text-start evolucion-text">En un mundo legal en constante evolución, nos mantenemos a la vanguardia del mundo legal utilizando tecnologías avanzadas y metodologías innovadoras para ofrecer soluciones legales modernas y efectivas.
+                            </p>
+                            <p class="text-start evolucion-text" style="margin-top: 2rem;">
+                                Nuestro Estudio cuenta con un equipo notarial de alto nivel que ofrece soporte integral y especializado, agilizando procesos y brindando soluciones legales completas y eficientes.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <!-- <div class="col-lg-6 col-md-6 col-sm-6 text-white-75 mb-4 text-start">Además, nuestro Estudio cuenta con un equipo notarial de alto nivel que añade un valor significativo a nuestra firma. Esto nos permite ofrecer un soporte integral y especializado en todos los aspectos legales y notariales. La integración de servicios notariales dentro de nuestra estructura nos permite agilizar procesos y proporcionar a nuestros clientes soluciones completas y eficientes, destacándonos aún más en el ámbito jurídico por la calidad y la amplitud de nuestro asesoramiento.</div>  -->
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section altura-secciones" id="services">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
+                <h2 class="text-center mt-0">Areas Prácticas</h2>
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
@@ -265,6 +288,8 @@
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div></div>
         </footer>
+        <!-- AOS -->
+        <script src="assets/aos/aos.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
