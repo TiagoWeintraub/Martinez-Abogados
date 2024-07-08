@@ -11187,9 +11187,24 @@ hr.divider-light {
   }
 }
 
+
+.mapa-container {
+  border: 10px #000 !important;
+  
+}
+
+
 .mapa {
-  max-width: 75%;
-  min-width: 60%;
-  max-height: 35rem;
-  min-height: 10rem;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton-mail {
+  border: 0; 
+  background-color: transparent;
+}
+
+.altura-contacto {
+  min-height: 300px;
 }
