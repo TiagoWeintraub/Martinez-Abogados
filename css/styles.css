@@ -164,10 +164,7 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
@@ -10887,6 +10884,7 @@ hr.divider-light {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10912,6 +10910,76 @@ hr.divider-light {
     color: #db4342;
   }
 }
+
+
+
+#plantillaNav {
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+  background-color: #000;
+}
+#plantillaNav .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  color: rgba(255, 255, 255, 0.7) ;
+}
+#plantillaNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7) ;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 350;
+  font-size: 1.2rem;
+  padding: 0.75rem 0;
+}
+#plantillaNav .navbar-nav .nav-item .nav-link:hover, #plantillaNav .navbar-nav .nav-item .nav-link:active {
+  color: #9e1e1d;
+}
+#plantillaNav .navbar-nav .nav-item .nav-link.active {
+  color: #db4342 !important;
+}
+
+@media (min-width: 992px) {
+  #plantillaNav {
+    box-shadow: none;
+    /* background-color: #000; */
+  }
+  #plantillaNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #plantillaNav .navbar-brand:hover {
+    color: #db4342;
+  }
+  #plantillaNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  #plantillaNav .navbar-nav .nav-item .nav-link:hover {
+    color: #db4342;
+  }
+  #plantillaNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #plantillaNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #000;
+  }
+  #plantillaNav.navbar-shrink .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #plantillaNav.navbar-shrink .navbar-brand:hover {
+    color: #db4342;
+  }
+  #plantillaNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #plantillaNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #db4342;
+  }
+}
+
+
+
+
+
 
 .masthead {
   min-height: 80vh;
@@ -10955,7 +11023,7 @@ hr.divider-light {
   background-attachment:fixed !important;
   background-size: cover;
   height: 50rem;
-  min-height: 40rem;
+  min-height: 20rem;
 }
 
 .evolucion p {
@@ -10978,7 +11046,7 @@ hr.divider-light {
 
   
   .evolucion p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 400;
     position: relative;
     z-index: 1;
@@ -10989,7 +11057,7 @@ hr.divider-light {
 
   
   .evolucion p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     position: relative;
     z-index: 1;
@@ -11077,13 +11145,8 @@ hr.divider-light {
   justify-content: end;
 }
 
-
-
-@media (max-width: 768px) {
-  .primer-columna-acordion {
-    display: flex; 
-    justify-content: start;
-  }
+.tamanio-colapsable {
+  max-width: 19rem;
 }
 
 .parrafo-area-practica {
@@ -11091,7 +11154,42 @@ hr.divider-light {
 }
 
 @media (max-width: 768px) {
+  .primer-columna-acordion {
+    display: flex; 
+    justify-content: start;
+  }
+
+  /* .segunda-columna-acordion {
+    margin-top: -45px;
+  } */
+
   .parrafo-area-practica {
     max-width: 100vw;
   }
+  .font-size-1 {
+    color: #fff; 
+    font-size: 1em;
+    text-align: justify;
+  }
+  
+  /* COLOR MAS GRISACIO PERO PARECIDO AL BLANCO, EL DEL NAVBAR */
+  .font-size-2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  /* COLOR NEGRO */
+  .font-size-3 {
+    color: #000;
+    font-size: 1em;
+    text-align: start;
+  }
+}
+
+.mapa {
+  max-width: 75%;
+  min-width: 60%;
+  max-height: 35rem;
+  min-height: 10rem;
 }
