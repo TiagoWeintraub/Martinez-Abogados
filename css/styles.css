@@ -4170,7 +4170,9 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 300px;
+  max-width: 75%;
+
   height: var(--bs-card-height);
   word-wrap: break-word;
   background-color: var(--bs-card-bg);
@@ -4275,6 +4277,9 @@ textarea.form-control-lg {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  height: 240px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+
 }
 
 .card-img,
@@ -4432,6 +4437,11 @@ textarea.form-control-lg {
 
 .accordion-body {
   padding: 0;
+}
+
+.accordion-body-equipo {
+  height: 620px;
+
 }
 
 .accordion-flush .accordion-collapse {
@@ -10985,7 +10995,7 @@ hr.divider-light {
   min-height: 80vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(16 15 15 / 80%) 0%, rgb(32 32 31 / 80%) 100%), url(../assets/img/bg-principal.jpg);
+  background: linear-gradient(to bottom, rgb(16 15 15 / 80%) 0%, rgb(32 32 31 / 80%) 100%), url(../assets/img/bg-principal.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11017,7 +11027,7 @@ hr.divider-light {
 .evolucion {
   padding-top: 3rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/IMG_0906.webp);
+  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/foto5.webp);
   background-position: top;
   background-repeat: no-repeat;
   background-attachment:fixed !important;
