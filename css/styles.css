@@ -4367,7 +4367,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  padding: var(--bs-accordion-btn-padding-y) 0;
   font-size: 1rem;
   /* color: var(--bs-accordion-btn-color); */
   text-align: left;
