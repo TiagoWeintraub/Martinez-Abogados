@@ -11256,9 +11256,12 @@ hr.divider-light {
   transition: transform 0.2s ease-in-out; /* Transición suave para animar el desplazamiento */
 }
 
-.accordion-button:hover .areas-practicas {
-  transform: translateX(15px); /* Desplaza 10px hacia la derecha al hacer hover */
+@media (min-width: 992px) {
+  .accordion-button:hover .areas-practicas {
+    transform: translateX(15px); /* Desplaza 15px hacia la derecha al hacer hover */
+  }
 }
+
 
 .footer-contacto {
   width: 100%;
