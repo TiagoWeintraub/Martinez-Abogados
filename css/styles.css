@@ -11034,7 +11034,7 @@ hr.divider-light {
   
   padding-top: 3rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/foto5.webp) center center no-repeat fixed; 
+  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/foto5.webp); 
   background-position: top;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -11079,13 +11079,14 @@ hr.divider-light {
 }
 
 @media (max-width: 500px) {
-  .evolucion {
+  /* .evolucion {
     padding-top: 2rem;
     padding-bottom: calc(8rem - 3.5rem);
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: auto;
-    min-height: 15rem;
-  }
+    min-height: 15rem; 
+    }*/
+  
   
   .evolucion p {
     font-size: 1rem;
