@@ -4382,7 +4382,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed), .numero-romano {
   color: #9E1E1D;
 }
 
