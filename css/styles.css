@@ -11031,13 +11031,16 @@ hr.divider-light {
 }
 
 .evolucion {
+  
   padding-top: 3rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/foto5.webp);
+  background: linear-gradient(to bottom, rgb(10 10 10 / 70%) 0%, rgb(24 24 24 / 50%) 80%), url(../assets/img/foto5.webp) center center no-repeat fixed; 
   background-position: top;
   background-repeat: no-repeat;
-  background-attachment:fixed !important;
+  background-attachment:fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -prefix-background-size: cover;
   height: 50rem;
   min-height: 20rem;
 }
@@ -11060,7 +11063,13 @@ hr.divider-light {
 
 @media (max-width: 992px) {
 
-  
+  /* .evolucion {
+    padding-top: 2rem;
+    padding-bottom: calc(8rem - 3.5rem);
+    background-attachment: scroll;
+    height: auto;
+    min-height: 15rem;
+  } */
   .evolucion p {
     font-size: 1rem;
     font-weight: 400;
@@ -11070,7 +11079,13 @@ hr.divider-light {
 }
 
 @media (max-width: 500px) {
-
+  .evolucion {
+    padding-top: 2rem;
+    padding-bottom: calc(8rem - 3.5rem);
+    background-attachment: scroll;
+    height: auto;
+    min-height: 15rem;
+  }
   
   .evolucion p {
     font-size: 1rem;
@@ -11149,10 +11164,13 @@ hr.divider-light {
   font-weight: 600;
 }
 
+
+
 .numero-romano {
   /* times new roman */
   font: 3em "Times New Roman", Times, serif;
   width: 95px;
+  color: black;
 }
 
 /* Acomoda la primer columna con display flex y contenido justificado al final */
