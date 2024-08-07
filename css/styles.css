@@ -11040,7 +11040,7 @@ hr.divider-light {
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -prefix-background-size: cover;
+  /* -prefix-background-size: cover; */
   height: 50rem;
   min-height: 20rem;
 }
