@@ -11168,7 +11168,8 @@ hr.divider-light {
 
 .numero-romano {
   /* times new roman */
-  font: 3em "Times New Roman", Times, serif;
+  font-family: "Noto Serif Khitan Small Script", serif;
+  font-size: 3em;
   width: 95px;
   color: black;
 }
