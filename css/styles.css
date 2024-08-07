@@ -4382,11 +4382,15 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.accordion-button:not(.collapsed), .numero-romano {
+.accordion-button:not(.collapsed) {
   color: #9E1E1D;
 }
 
 .accordion-button:not(.collapsed) .font-size-3 {
+  color: #9E1E1D;
+}
+
+.accordion-button:not(.collapsed) .numero-romano {
   color: #9E1E1D;
 }
 
@@ -11063,13 +11067,13 @@ hr.divider-light {
 
 @media (max-width: 992px) {
 
-  /* .evolucion {
+  .evolucion {
     padding-top: 2rem;
     padding-bottom: calc(8rem - 3.5rem);
     background-attachment: scroll;
     height: auto;
     min-height: 15rem;
-  } */
+  }
   .evolucion p {
     font-size: 1rem;
     font-weight: 400;
@@ -11079,13 +11083,13 @@ hr.divider-light {
 }
 
 @media (max-width: 500px) {
-  /* .evolucion {
+  .evolucion {
     padding-top: 2rem;
     padding-bottom: calc(8rem - 3.5rem);
     background-attachment: fixed;
     height: auto;
     min-height: 15rem; 
-    }*/
+    }
   
   
   .evolucion p {
