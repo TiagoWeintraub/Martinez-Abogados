@@ -11173,7 +11173,7 @@ hr.divider-light {
 
 .numero-romano {
   /* times new roman */
-  font-family: "Noto Serif Khitan Small Script", serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 3em;
   width: 95px;
   color: black;
